@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BpkBoilerplate should render correctly 1`] = `
+<div
+  className="bpk-boilerplate"
+>
+  Hello world
+</div>
+`;
+
+exports[`BpkBoilerplate should render correctly with the "alternate" prop 1`] = `
+<div
+  className="bpk-boilerplate bpk-boilerplate--alternate"
+>
+  Hello world
+</div>
+`;
+
+exports[`BpkBoilerplate should support arbitrary props 1`] = `
+<div
+  className="bpk-boilerplate"
+  testID="123"
+>
+  Hello world
+</div>
+`;
+
+exports[`BpkBoilerplate should support custom class names 1`] = `
+<div
+  className="bpk-boilerplate custom-classname"
+>
+  Hello world
+</div>
+`;
